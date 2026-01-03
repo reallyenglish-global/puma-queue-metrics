@@ -20,4 +20,7 @@ Gem::Specification.new do |spec|
   spec.metadata['source_code_uri'] = spec.homepage
 
   spec.add_dependency 'rack', '>= 2.0'
+
+  spec.add_development_dependency 'rake', '>= 13.0'
+  spec.add_development_dependency 'rspec', '>= 3.12'
 end
