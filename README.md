@@ -7,9 +7,9 @@ Small Rack-compatible exporter that publishes Puma backlog/CPU/memory metrics in
 Add this gem to your application:
 
 ```ruby
-gem 'puma-queue', git: 'https://github.com/your-org/puma-queue'
+gem 'puma-queue-metrics', git: 'https://github.com/your-org/puma-queue-metrics'
 # or when developing locally
-# gem 'puma-queue', path: '../puma-queue'
+# gem 'puma-queue-metrics', path: '../puma-queue-metrics'
 ```
 
 Run `bundle install` and configure the exporter via an initializer:
